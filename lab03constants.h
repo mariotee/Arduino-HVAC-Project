@@ -1,0 +1,140 @@
+/*Constants for Lab 03*/
+
+//Colour Palette
+//#define BACKGROUND 0xe7f0  //LIME GREEN
+//#define BACKGROUND 0x9f96  //AQUA
+#define BACKGROUND 0xcffc  //SKY BLUE
+#define LITE_GREY 0xef7d
+#define DARK_GREY 0x632c
+#define BLACK 0x0000
+#define WHITE 0xffff
+#define HEAT_0 0xfefb
+#define HEAT_1 0xd32c
+#define COOL_0 0xce5f
+#define COOL_1 0x633a
+#define AUTO_0 0xfff9
+#define AUTO_1 0xd6ac
+#define GREY_0 0xe73c
+#define GREY_1 0x94b2
+#define HOLD_0 0xff39
+#define HOLD_1 0xcbc6
+//EEPROM addresses
+//saved settings
+#define M_SETPOINTS_ENABLED 100
+#define M_DISPLAY_FAHRENHEIT 101
+#define M_CURRENT_SETPOINT_C 102
+//stored setpoints, weekdays
+#define M_WEEKDAY_SP1_ENB 200
+#define M_WEEKDAY_SP1_HRS 201
+#define M_WEEKDAY_SP1_MNT 202
+#define M_WEEKDAY_SP1_TMP 203
+#define M_WEEKDAY_SP2_ENB 204
+#define M_WEEKDAY_SP2_HRS 205
+#define M_WEEKDAY_SP2_MNT 206
+#define M_WEEKDAY_SP2_TMP 207
+#define M_WEEKDAY_SP3_ENB 208
+#define M_WEEKDAY_SP3_HRS 209
+#define M_WEEKDAY_SP3_MNT 210
+#define M_WEEKDAY_SP3_TMP 211
+#define M_WEEKDAY_SP4_ENB 212
+#define M_WEEKDAY_SP4_HRS 213
+#define M_WEEKDAY_SP4_MNT 214
+#define M_WEEKDAY_SP4_TMP 215
+//stored setpoints, weekends
+#define M_WEEKEND_SP1_ENB 300
+#define M_WEEKEND_SP1_HRS 301
+#define M_WEEKEND_SP1_MNT 302
+#define M_WEEKEND_SP1_TMP 303
+#define M_WEEKEND_SP2_ENB 304
+#define M_WEEKEND_SP2_HRS 305
+#define M_WEEKEND_SP2_MNT 306
+#define M_WEEKEND_SP2_TMP 307
+#define M_WEEKEND_SP3_ENB 308
+#define M_WEEKEND_SP3_HRS 309
+#define M_WEEKEND_SP3_MNT 310
+#define M_WEEKEND_SP3_TMP 311
+#define M_WEEKEND_SP4_ENB 312
+#define M_WEEKEND_SP4_HRS 313
+#define M_WEEKEND_SP4_MNT 314
+#define M_WEEKEND_SP4_TMP 315
+
+//HOME component values
+//config button
+#define CONFIG_X 250
+#define CONFIG_Y 0
+#define CONFIG_WIDTH 70
+#define CONFIG_HEIGHT 20
+//setpoint buttons
+#define HOME_SP_Y 120
+#define HOME_SP_WIDTH 60
+#define HOME_SP_HEIGHT 24
+#define HOME_SP_DOWN_X 95
+#define HOME_SP_UP_X 185
+//main buttons
+#define MBUTTON_WIDTH 55
+#define MBUTTON_HEIGHT 36
+#define MBUTTON_Y 192
+#define HEAT_X 25
+#define COOL_X 100
+#define AUTO_X 175
+#define OFF_X 250
+//hold button
+#define HOLD_X 158
+#define HOLD_Y 145
+#define HOLD_WIDTH 24
+#define HOLD_HEIGHT 24
+//CONFIG component values
+#define GO_BACK_X 5
+#define GO_BACK_Y 5
+#define GO_BACK_WIDTH 85
+#define GO_BACK_HEIGHT 20
+#define CONFIG_BOX_WIDTH 180
+#define CONFIG_BOX_HEIGHT 25
+#define CONFIG_BOX_X 80
+#define CONFIG_BOX_Y1 42
+#define CONFIG_BOX_Y2 148
+#define CONFIG_BOX_Y3 188
+#define CHECKBOX_X 240
+#define CHECKBOX_Y1 85
+#define CHECKBOX_Y2 115
+#define CHECKBOX_SIDE 20
+//SET_TIME component values
+#define DT_TOP_UP_Y 55
+#define DT_TOP_DOWN_Y 105
+#define DT_TOP_W 50
+#define DT_TOP_H 15
+#define DT_MM_X 50
+#define DT_DD_X 130
+#define DT_YYYY_X 225
+#define DT_BOTTOM_UP_Y 150
+#define DT_BOTTOM_DOWN_Y 205
+#define DT_BOTTOM_W 35
+#define DT_BOTTOM_H 15
+#define DT_HH_X 90
+#define DT_NN_X 160
+//SETPOINT_MENU component values
+#define SP_EN_X 40
+#define SP_EN_RADIUS 12
+#define SP_EN_Y1 80
+#define SP_EN_Y2 120
+#define SP_EN_Y3 160
+#define SP_EN_Y4 200
+#define EDIT_BUTTON_X 230
+#define EDIT_BUTTON_W 60
+#define EDIT_BUTTON_H 20
+#define EDIT_BUTTON_Y1 70
+#define EDIT_BUTTON_Y2 110
+#define EDIT_BUTTON_Y3 150
+#define EDIT_BUTTON_Y4 190
+//SET_SETPOINT component values
+#define SSP_TIME_W 35
+#define SSP_TIME_H 15
+#define SSP_TIME_UP_Y 60
+#define SSP_TIME_DOWN_Y 115
+#define SSP_HH_X 110
+#define SSP_MM_X 180
+#define SSP_TEMP_Y 186
+#define SSP_TEMP_W 60
+#define SSP_TEMP_H 18
+#define SSP_TEMP_DOWN_X 85
+#define SSP_TEMP_UP_X 180
